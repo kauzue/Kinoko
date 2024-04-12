@@ -15,12 +15,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_140FC7E0593847788CC444B39226F4D3"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_26C5B2850E62450DA35DF68D5E7749A3"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -28,37 +22,49 @@
         "Entry"
         {
         "MsmKey" = "8:_4574F94A8F65CC555126BF1B11EB3DC6"
-        "OwnerKey" = "8:_140FC7E0593847788CC444B39226F4D3"
+        "OwnerKey" = "8:_8AD7D7BB02F24CF58A4FA52810F84698"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_4EDDC465E4382D47214692FBA90D98CB"
-        "OwnerKey" = "8:_140FC7E0593847788CC444B39226F4D3"
+        "OwnerKey" = "8:_8AD7D7BB02F24CF58A4FA52810F84698"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_65E6CF668F89022A6A29C32528E7E3EE"
-        "OwnerKey" = "8:_140FC7E0593847788CC444B39226F4D3"
+        "OwnerKey" = "8:_8AD7D7BB02F24CF58A4FA52810F84698"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8AD7D7BB02F24CF58A4FA52810F84698"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_95C4EB73D1EC73CFE81B90D6CE637A95"
-        "OwnerKey" = "8:_140FC7E0593847788CC444B39226F4D3"
+        "OwnerKey" = "8:_8AD7D7BB02F24CF58A4FA52810F84698"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_9DDCD01AF2EF5675A18D8F30336B0163"
-        "OwnerKey" = "8:_140FC7E0593847788CC444B39226F4D3"
+        "OwnerKey" = "8:_8AD7D7BB02F24CF58A4FA52810F84698"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_A4E2D22F19B730E5EEB1757DCF267E7F"
-        "OwnerKey" = "8:_140FC7E0593847788CC444B39226F4D3"
+        "OwnerKey" = "8:_8AD7D7BB02F24CF58A4FA52810F84698"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A5D594C7BB46505B406B7E7C9AD30130"
+        "OwnerKey" = "8:_8AD7D7BB02F24CF58A4FA52810F84698"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -70,7 +76,7 @@
         "Entry"
         {
         "MsmKey" = "8:_FD2E067F68962705BE041BBF6999B299"
-        "OwnerKey" = "8:_140FC7E0593847788CC444B39226F4D3"
+        "OwnerKey" = "8:_8AD7D7BB02F24CF58A4FA52810F84698"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -163,7 +169,7 @@
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_26C5B2850E62450DA35DF68D5E7749A3"
             {
             "SourcePath" = "8:..\\Kinoko\\save\\save00.bin"
-            "TargetName" = "8:save00.bin"
+            "TargetName" = "8:save01.bin"
             "Tag" = "8:"
             "Folder" = "8:_8A426C1F02564C7AA3BF81F963B9DCAA"
             "Condition" = "8:"
@@ -300,6 +306,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A5D594C7BB46505B406B7E7C9AD30130"
+            {
+            "SourcePath" = "8:api-ms-win-crt-filesystem-l1-1-0.dll"
+            "TargetName" = "8:api-ms-win-crt-filesystem-l1-1-0.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_FEBBF0A4BE724F0C93ED7F5381DD158E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AFFB2A0390474EB0A64D34726ACF00EC"
             {
             "SourcePath" = "8:..\\Kinoko\\story\\story.txt"
@@ -419,7 +445,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Kinoko - 귀신의 아이"
         "ProductCode" = "8:{D09C1EEC-B8B4-4BD0-AE24-0E9419821D6C}"
-        "PackageCode" = "8:{21CBE9F6-3368-4F6C-BAD7-9BAA4178BC77}"
+        "PackageCode" = "8:{8F189915-6517-4455-BEC2-B946EA1D73DF}"
         "UpgradeCode" = "8:{E0784746-9C62-4975-AEC6-A5FAA3724F02}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -539,7 +565,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_29A6E0D461604409B2A97B9357B9755E"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_1F6605214C534CA3A3F465FB78BD3568"
             {
             "Name" = "8:Kinoko - 귀신의 아이"
             "Arguments" = "8:"
@@ -547,13 +573,13 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_140FC7E0593847788CC444B39226F4D3"
+            "Target" = "8:_8AD7D7BB02F24CF58A4FA52810F84698"
             "Folder" = "8:_417B4563EE7E4023A551D29C367F563A"
             "WorkingFolder" = "8:_FEBBF0A4BE724F0C93ED7F5381DD158E"
             "Icon" = "8:"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_6EF9C761CB4E4D5DBBDEF483F8F939D6"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_FE6F32FA4D10419E9AC857F0D60355D5"
             {
             "Name" = "8:Kinoko - 귀신의 아이"
             "Arguments" = "8:"
@@ -561,7 +587,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_140FC7E0593847788CC444B39226F4D3"
+            "Target" = "8:_8AD7D7BB02F24CF58A4FA52810F84698"
             "Folder" = "8:_B597A3066F544BDF9B12A44CD4003EF7"
             "WorkingFolder" = "8:_FEBBF0A4BE724F0C93ED7F5381DD158E"
             "Icon" = "8:"
@@ -966,7 +992,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_140FC7E0593847788CC444B39226F4D3"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_8AD7D7BB02F24CF58A4FA52810F84698"
             {
             "SourcePath" = "8:..\\x64\\Release\\Kinoko.exe"
             "TargetName" = "8:"

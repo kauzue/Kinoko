@@ -17,7 +17,7 @@ bool Init()
 	}
 
 	char save_filename[16];
-	for (int i = 0; i <= NUM_MAX_SAVES; i++) {
+	for (int i = 1; i <= NUM_MAX_SAVES; i++) {
 		sprintf(save_filename, "save\\save%02d.bin", i);
 
 		FILE* sb = fopen(save_filename, "rb");

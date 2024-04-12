@@ -1,3 +1,3 @@
 #pragma once
 
-void InitGame(int);
+int menu(int);

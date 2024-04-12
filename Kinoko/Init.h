@@ -2,7 +2,7 @@
 
 #include <stdbool.h>
 
-#define NUM_MAX_SAVES 19
+#define NUM_MAX_SAVES 20
 #define NUM_MAX_SAVE_PER_ITEMS 5
 
 typedef struct item {
